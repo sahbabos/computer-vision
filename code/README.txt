@@ -4,4 +4,3 @@ there are multiple fucntions and helper to be able to do the project
 I commented some of it so its easier but in anycase pleaseplease eamil 
 me if you cant figure out how to run the code it not the best code sahba@berkeley.edu
 bests 
-sahba bostanbakhsh
