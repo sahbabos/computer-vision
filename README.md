@@ -1,6 +1,8 @@
 # Face morphing computer-vision
 
-This is simple classical application of affain matrix. For this project I simply use affain matrix to morph one face to another over 45 frames.
+This is simple classical application of affain matrix. For this project I simply use affain matrix to morph one face to another over 45 frames. 
+
+#####I did't include all of my code in the MD file just something to explain what is what.
 
 
 ![](gif.gif)
@@ -49,7 +51,7 @@ def trangulation(points_data_1, points_data_2):
  3. Averaging the colors together
 
 I used computeAffine to computer the affain matrix so I could apply it to all the pixles and morph the image to the avrage point.
-#### Also I used polygon to get all the pixels coordinates inside each triangle. instead of doing a nested for loop!!!!   
+#### Also I used polygon to get all the pixel coordinates inside each triangle. instead of doing a nested for loop we don't want O(n^2) time complexity!!!!   
 ``` python 
  def computeAffine(tri1_pts, tri2_pts):
 	# transformation matrix
