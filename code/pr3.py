@@ -8,13 +8,8 @@ import skimage.io as io
 from scipy import misc
 import numpy as np
 import os
-# im = io.imread("toney.jpg")
-# im = io.imread()
-
 points_image_1 = []
 points_image_2 = []
-# p_1 = [[0,0],[0,im_1.shape[1]],[im_1.shape[0],0],[im_1.shape[0],im_1.shape_1[1]]]
-# p_2 = [[0,0],[0,im_1.shape[1]],[im_1.shape[0],0],[im_1.shape[0],im_1.shape_1[1]]]
 def getpoints(image,filename, points_array):
     plt.imshow(image)
     
@@ -31,8 +26,6 @@ def getpoints(image,filename, points_array):
             break
     plt.close()
 
-
-# print(p)
 
 def trangulation(points_data_1, points_data_2):
 	image_trangle_1 = Delaunay(np.array(points_data_1))
